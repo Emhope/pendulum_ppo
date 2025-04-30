@@ -1,11 +1,29 @@
-Установите Poetry (если не установлен):
-pip install poetry
+1. **Установите Poetry** (если не установлен):
+   ```bash
+   pip install poetry
+   ```
 
-Установите зависимости через Poetry:
-poetry install
+2. **Установите зависимости через Poetry**:
+   ```bash
+   poetry install
+   ```
 
-Обучение:
-poetry run python main.py
+3. **Активируйте виртуальное окружение**:
+   ```bash
+   poetry shell
+   ```
 
-Тест модели:
-poetry run python test.py
+**Обучение**:
+   ```bash
+   poetry run python main.py
+   ```
+
+**Тест модели**:
+   ```bash
+   poetry run python test.py
+   ```
+
+**Просмотр логов**:
+   ```bash
+   tensorboard --logdir runs
+   ```
